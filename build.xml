@@ -620,7 +620,7 @@
       dir="${yarnCwd}"
       failonerror="true"
       failifexecutionfails="true">
-      <arg line="--ignore-engines"/>
+      <arg line="--ignore-engines --network-concurrency 1"/>
     </exec>
   </target>
 
